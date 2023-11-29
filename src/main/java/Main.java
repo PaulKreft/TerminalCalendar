@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        int x = 1;
         String[][] months = {{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"},
                 {"31", "28", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"}};
         System.out.println(months[0][0]);
