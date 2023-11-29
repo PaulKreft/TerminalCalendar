@@ -12,7 +12,7 @@ public class Main {
     public static void printCalendarForMonth(String monthName, int daysInMonth, int offsetDays){
         System.out.println("\n" + "\n" + monthName);
         System.out.println("Mo Tu We Th Fr Sa Su");
-        for (int i = 1; i <= daysInMonth; i++){
+        for (int i = 1; i <= daysInMonth + offsetDays; i++){
         if(i <= offsetDays) {
             System.out.print("   ");
         }else {
